@@ -1,0 +1,20 @@
+html,
+body {
+    min-width: 1250px;
+}
+
+.el-menu.menu-flex {
+    display: flex;
+}
+
+@media all and (max-width: 1260px) {
+    .header .one-menu .el-menu-item {
+        font-size: 14px;
+    }
+    background-color: red;
+}
+
+.haveMenu-reset {
+    // overflow: visible;
+    overflow: auto;
+}
